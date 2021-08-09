@@ -66,3 +66,10 @@ TroubleShooting 4 - Rollback Service Source
 
 
 
+---
+### 비밀번호 확인
+![비밀번호 다름](https://user-images.githubusercontent.com/73703641/128650448-a92bda90-55e1-4579-95d6-0c4b0320986f.gif)
+
+JavaScript를 통해서 비밀번호가 일치하는지 확인하도록 했습니다.
+
+---
