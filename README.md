@@ -121,3 +121,15 @@ https://dulki.tistory.com/188
 ![Build Status](https://travis-ci.com/hsp0404/SpringMVCBoard.svg?branch=master)
 
 ![Build Status](https://travis-ci.com/hsp0404/SpringMVCBoard.svg?branch=master)
+
+
+---
+
+#### HTTPS
+
+certbot / let'sEncrypt 를 사용하여 SSL 인증을 받았습니다.
+
+![https1](https://user-images.githubusercontent.com/73703641/128672882-b7dc4092-e6da-48ab-b1f4-fdf2e8ff1b1a.png)
+![https2](https://user-images.githubusercontent.com/73703641/128672885-a3fbffa4-cfb2-4704-b8f3-dbd646e2c909.png)
+
+---
