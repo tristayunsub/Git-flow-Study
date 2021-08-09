@@ -7,6 +7,8 @@
 
 vscode extension: https://github.com/nvie/gitflow
 
+
+vscode로 git 사용 가이드 : https://www.youtube.com/watch?v=qkRuIUSdXnw&ab_channel=%EB%91%90%EC%9B%90%EC%9D%B4Doowonee
 깃 플로우 트러블슈팅
 
 
