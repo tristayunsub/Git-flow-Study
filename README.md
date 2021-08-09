@@ -68,8 +68,56 @@ TroubleShooting 4 - Rollback Service Source
 
 ---
 ### 비밀번호 확인
-![비밀번호 다름](https://user-images.githubusercontent.com/73703641/128650448-a92bda90-55e1-4579-95d6-0c4b0320986f.gif)
 
-JavaScript를 통해서 비밀번호가 일치하는지 확인하도록 했습니다.
 
 ---
+
+```java
+    @ResponseBody
+    @RequestMapping("/sendMail")
+    public String sendMail(@RequestBody SimpleMailMessage mail){
+        Random random = new Random();
+        int key = random.nextInt(8999) + 1000;
+        mail.setSubject("hsp94.site 회원가입 인증메일 입니다.");
+        mail.setText("인증번호 : "+String.valueOf(key)+"를 입력해주세요");
+        mailSender.send(mail);
+        return String.valueOf(key);
+    }
+```
+
+---
+
+
+> ### 게시판 기능
+>> 글 수정/삭제
+
+
+> ### 게시판 기능 / 보안배포
+>> 글 수정/삭제
+
+
+
+
+1. [**개발 목적**](#개발-목적)
+
+2. [**개발 환경**](#개발-환경)
+
+3. [**프로젝트 구조**](#프로젝트-구조)
+
+4. [**기능**](#기능)
+
+5. [**느낀점**](#느낀점)
+
+https://dulki.tistory.com/188
+깃허브에 이미지올리기
+
+
+배지 :: https://shields.io/
+아이콘 :: https://simpleicons.org/
+
+위의 사이트를 참고하면된다.
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> &nbsp
+![Build Status](https://travis-ci.com/hsp0404/SpringMVCBoard.svg?branch=master)
+
+![Build Status](https://travis-ci.com/hsp0404/SpringMVCBoard.svg?branch=master)
